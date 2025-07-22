@@ -19,9 +19,9 @@ func FindEvenNumbers(nums []int) ([]int, error) {
 
 func main() {
 	input1 := []int{1, 3, 2, 4, 5, 6, 7, 8}
-	evens1, err1 := FindEvenNumbers(input1)
+	evens1, err1 := FindEvenNumbers(input1) //please do error checking
 	fmt.Println(evens1, err1)
 	input2 := []int{}
-	evens2, err2 := FindEvenNumbers(input2)
+	evens2, err2 := FindEvenNumbers(input2) //please do error checking
 	fmt.Println(evens2, err2)
 }
